@@ -7,19 +7,22 @@
 }
 
 :root {
-    --main-dark:#232528;
-    --main-white:#f3f3f3;
-    --dark-blue:#181466;
-    --medium-blue:#1811e7;
-    --light-blue:rgb(70, 100, 236);
-    --main-orange:#EC4C46;
+    --dark-15:hsl(216, 7%, 15%);
+    --white-95:hsl(0, 0%, 95%);
+    --blue-15: hsl(242, 51%, 15%);
+    --blue-25:hsl(242, 86%, 25%);
+    --blue-35:hsl(242, 86%, 35%);
+    --blue-45:hsl(242, 86%, 45%);
+    --blue-80:hsl(230, 100%, 80%);
+    --orange-70:hsl(2, 88%, 70%);
+    --cyan:hsl(189, 96%, 58%);
 
 
 }
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: var(--main-white)
+    background: var(--white-95)
 }
 
 a {
@@ -39,5 +42,5 @@ h2,
 h3,
 h4 {
     letter-spacing: 0.05rem;
-    color: var(--dark-blue);
+    color: var(--blue-15);
 }
