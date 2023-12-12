@@ -11,7 +11,20 @@ export default function ProductList() {
     return (
         <div className="e-commerce-container">
             <h1>Product List</h1>
-            <Link to='product/detail'>Product Detail</Link>
+            <Product />
+            <Product />
+            <Product />
+            <Product />
+        </div>
+    )
+}
+
+
+function Product() {
+
+    return (
+        <div className="product">
+            <h2>hello world</h2>
         </div>
     )
 }
