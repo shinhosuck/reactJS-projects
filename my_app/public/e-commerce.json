@@ -1,0 +1,11 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "img":"./logo512.png",
+            "name": "Jack",
+            "age": 44,
+            "employed": "no"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+.e-commerce-navbar-container {
+    padding: 1rem 0;
+}
+
+.e-commerce-navbar-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.e-commerce-nav-link {
+    letter-spacing: 0.05rem;
+    color: var(--main-dark)
+}
+
+.active-e-commerce-nav-link {
+   border-bottom: 3px solid var(--main-orange);
+   color: var(--main-orange);
+   font-weight: 600;
+}

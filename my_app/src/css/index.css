@@ -1,0 +1,43 @@
+::before,
+::after,
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-dark:#232528;
+    --main-white:#f3f3f3;
+    --dark-blue:#181466;
+    --medium-blue:#1811e7;
+    --light-blue:rgb(70, 100, 236);
+    --main-orange:#EC4C46;
+
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--main-white)
+}
+
+a {
+    text-decoration: none;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='number'] {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    letter-spacing: 0.05rem;
+    color: var(--dark-blue);
+}
