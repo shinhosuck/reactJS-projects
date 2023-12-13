@@ -13,11 +13,16 @@
     --blue-25:hsl(242, 86%, 25%);
     --blue-35:hsl(242, 86%, 35%);
     --blue-45:hsl(242, 86%, 45%);
+    --blue-55:hsl(226, 83%, 55%);
     --blue-80:hsl(230, 100%, 80%);
     --orange-70:hsl(2, 88%, 70%);
     --cyan:hsl(189, 96%, 58%);
 
 
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {

@@ -6,7 +6,7 @@ import React from 'react'
 
 
 
-export default function BaseLayout() {
+export default function RootLayout() {
 
     return (
         <React.Fragment>
